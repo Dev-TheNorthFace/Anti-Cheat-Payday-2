@@ -1,0 +1,12 @@
+{
+	"name" : "Anti Cheat Payday 2",
+	"author" : "North",
+	"contact" : "id/North",
+	"version" : "1.0.0",
+	"blt_version" : 2,
+	"priority" : 1,
+	"updates" : [ { "identifier" : "CK" } ],
+	"hooks" : [
+		{"hook_id":"lib/network/base/networkpeer", "script_path":"mod.lua"}
+	]
+}
